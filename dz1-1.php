@@ -23,4 +23,4 @@
     $city = 'Nuremberg';
     $job = false;
 
-    echo "Hi! My name is <b>$name</b> and I'm $age. I live in $city ";
+    echo "Hi! My name is <b>$name</b> and I'm $age. I live in $city and ".(($job) ? "have a job!" : "I'm student!");
