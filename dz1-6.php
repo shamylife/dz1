@@ -35,3 +35,9 @@
         'doors' => 5,
         'year'  => "2003"
     );
+
+    # Вывод значений массива BMW
+    echo "Модель:      $bmw[model] <br>
+          Скорость:    $bmw[speed] <br>
+          Двери:       $bmw[doors] <br>
+          Год выпуска: $bmw[year]  <br> <hr>";
