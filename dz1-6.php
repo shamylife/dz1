@@ -47,3 +47,9 @@
           Скорость:    $toyota[speed] <br>
           Двери:       $toyota[doors] <br>
           Год выпуска: $toyota[year]  <br> <hr>";
+
+    # Вывод значений массива Opel
+    echo "Модель:      $opel[model] <br>
+          Скорость:    $opel[speed] <br>
+          Двери:       $opel[doors] <br>
+          Год выпуска: $opel[year]  <br> <hr>";
