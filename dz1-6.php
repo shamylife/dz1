@@ -41,3 +41,9 @@
           Скорость:    $bmw[speed] <br>
           Двери:       $bmw[doors] <br>
           Год выпуска: $bmw[year]  <br> <hr>";
+    
+    # Вывод значений массива Toyota
+    echo "Модель:      $toyota[model] <br>
+          Скорость:    $toyota[speed] <br>
+          Двери:       $toyota[doors] <br>
+          Год выпуска: $toyota[year]  <br> <hr>";
