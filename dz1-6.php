@@ -1,3 +1,4 @@
+<?php
 /*
     Создайте массив $bmw с ячейками: model, speed, doors, year. Заполните ячейки
     значениями соответственно: “X5”, 120, 5, “2015”. Создайте массивы $toyota и $opel
@@ -13,3 +14,24 @@
     Двери: 5
     Год выпуска: 2015
 */
+
+    $bmw = Array(
+        'model' => "X5",
+        'speed' => 120,
+        'doors' => 5,
+        'year'  => "2015"
+    );
+
+    $toyota = Array(
+        'model' => "Land Cruiser",
+        'speed' => 100,
+        'doors' => 5,
+        'year'  => "2014"
+    );
+
+    $opel = Array(
+        'model' => "Frontera",
+        'speed' => 80,
+        'doors' => 5,
+        'year'  => "2003"
+    );
