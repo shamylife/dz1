@@ -23,8 +23,6 @@
         $length--;
     }
 
-    echo '<pre>' . print_r($reverse_array, true) . '</pre>';
+    $newstr = implode(' | ', $reverse_array);
 
-//    $newstr = implode(' & ', $reverse_array);
-//
-//    echo $newstr;
+    echo $newstr;
