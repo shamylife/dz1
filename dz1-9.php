@@ -6,3 +6,23 @@
     или do-while (на ваше усмотрение) развернуть массив и склеить в строку используя
     любой символ, кроме пробела. Вывести результат.
 */
+
+    $str = "Арбуз Абрикос Слива Яблоко Груша";
+
+    echo $str . '<br>';
+
+    $arr = explode(' ', $str);
+
+    echo '<pre>' . print_r($arr, true) . '</pre>';
+
+    $length = count($arr);
+    $reverse_array = Array();
+
+    while ($length) {
+        $reverse_array[] = $arr[$length - 1];
+        $length--;
+    }
+
+    $newstr = implode(' | ', $reverse_array);
+
+    echo $newstr;
