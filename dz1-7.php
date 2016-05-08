@@ -14,5 +14,8 @@
     echo '<pre>'.print_r($cars, true).'</pre><br><hr>';
 
     foreach ($cars as $key => $value) {
-        echo $key.': '.$value.'<br>';
+        foreach ($value as $type => $info) {
+            echo $type.': '.$info.'<br>';
+        }
+        echo '<br>';
     }
