@@ -13,13 +13,13 @@
 
     $arr = explode(' ', $str);
 
-    echo '<pre>' . print_r($arr, true) . '</pre>';
+    echo '<pre>' . print_r($arr, true) . '</pre>'; //аналогично
 
     $length = count($arr);
-    $reverse_array = Array();
+    $reversed_array = Array(); //определять массив заранее в PHP не требуется, однако ничего плохого в этом нет. Я бы назвал reversed_array, т.к. он как раз измененный, а reverse_array больше подойдет под название функции
 
     while ($length) {
-        $reverse_array[] = $arr[$length - 1];
+        $reversed_array[] = $arr[$length - 1];
         $length--;
     }
 

@@ -11,10 +11,12 @@
         'Opel'   => ['model' => 'Frontera', 'speed' => 80,  'doors' => 5, 'year' => 2003]
     ];
 
-    echo '<pre>'.print_r($cars, true).'</pre><br><hr>';
+    echo '<pre>';
+    print_r($cars); //Разный тип вывода лучше разделять, не мешая все в одной строке, увеличивает читаемость, тогда и лишний параметр указывать не придется
+    echo '</pre><br><hr>';
 
-    foreach ($cars as $key => $value) {
-        foreach ($value as $type => $info) {
+    foreach ($cars as $key => $car) { //Переменные всегда необходимо называть корректно(ключ допустимо оставлять key)
+        foreach ($car as $type => $info) {
             echo $type.': '.$info.'<br>';
         }
         echo '<br>';
